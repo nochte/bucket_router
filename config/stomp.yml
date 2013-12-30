@@ -1,0 +1,11 @@
+develop:
+  incoming_queues:
+    bucket_test: '/queue/bucket_test'
+  connections:
+    bucket_test:
+      host: 'localhost'
+      login: 'admin'
+      passcode: 'admin'
+  workers:
+    minimum: 0
+    maximum: 0
